@@ -1,4 +1,4 @@
-Here’s your **GitHub README** with a polished structure and clear formatting:  
+Here's the **GitHub README** without the stars:  
 
 ---
 
@@ -7,27 +7,31 @@ Here’s your **GitHub README** with a polished structure and clear formatting:
 Fraud detection is crucial in the financial industry. This project builds a **machine learning pipeline** to identify fraudulent transactions step by step.  
 
 ## 🔍 Step 1: Understanding the Data  
-✔ Loaded the dataset and checked for missing values (none found).  
-✔ Found **high class imbalance** (fraud cases are rare).  
+- Loaded the dataset and checked for missing values (none found).  
+- Found **high class imbalance** (fraud cases are rare).  
 
 ## 🛠 Step 2: Data Preprocessing  
-✔ **Removed duplicates** and **normalized** the `Amount` and `Time` columns.  
+- Removed duplicates and normalized the `Amount` and `Time` columns.  
 
 ## 📊 Step 3: Handling Class Imbalance  
-✔ Used **SMOTE (Synthetic Minority Over-sampling Technique)** to generate synthetic fraud cases and balance the dataset.  
+- Used **SMOTE (Synthetic Minority Over-sampling Technique)** to generate synthetic fraud cases and balance the dataset.  
 
 ## 🤖 Step 4: Training Machine Learning Models  
-✔ **Split the data** into training and testing sets.  
-✔ Trained multiple models:  
-  - ✅ Logistic Regression  
-  - ✅ Support Vector Machine (SVM)  
-  - ✅ Random Forest  
-  - ✅ Deep Learning (Neural Network)  
+- Split the data into training and testing sets.  
+- Trained multiple models:  
+  - Logistic Regression  
+  - Support Vector Machine (SVM)  
+  - Random Forest  
+  - Deep Learning (Neural Network)  
 
 ## 📈 Step 5: Evaluating & Comparing Models  
-✔ Used **Precision-Recall AUC** (important for fraud detection).  
-✔ **Best model** depends on results:  
+- Used **Precision-Recall AUC** (important for fraud detection).  
+- Best model depends on results:  
   - If **Random Forest** performs best → Ideal for real-time fraud detection.  
   - If **Neural Network** wins → Deep learning is the future!  
 
-🔗 **References & Credits**: Dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+🔗 **References & Credits**: Dataset from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)  
+
+---
+
+This version completely removes stars. Let me know if you need any other changes! 🚀
